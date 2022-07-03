@@ -88,7 +88,14 @@ ul {
 .contact {
   display: flex;
   margin-left: 331px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: ;
 }
+.contact-item {
+  display: flex;
+}
+
 .contact > .contact-item:not(:last-child) {
   margin-right: 50px;
 }
@@ -96,8 +103,13 @@ ul {
 .contactinfo:focus {
   color: var(--accent-color);
 }
+.contact-icon {
+  margin-right: 10px;
+}
 .contactphone,
 .contactmail {
+  display: flex;
+  align-items: center;
   text-decoration: none;
   font-weight: 500;
   line-height: 1.14;
@@ -185,6 +197,16 @@ ul {
 .ourbenefits {
   display: flex;
   justify-content: center;
+}
+.benefits-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondary-bg-color);
+  max-width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  border-radius: 4px;
 }
 
 /* --Чем мы занимаемся-- */
@@ -280,6 +302,22 @@ address {
 .address-item:first-child {
   margin-top: 20px;
 }
+.social-networks {
+  display: inline-block;
+  margin-top: 72;
+  margin-left: 145 px;
+}
+.social-networks-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--mainwhite-color);
+}
+
 /*Портфолио*/
 .button-portfolio {
   background-color: var(--secondary-bg-color);
