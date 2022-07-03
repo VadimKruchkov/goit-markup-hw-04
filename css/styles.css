@@ -126,7 +126,7 @@ ul {
 /*----Герой----*/
 
 .hero {
-  background-image: url("/images/HeroBackgroundimg.jpg");
+  background-image: url("images/HeroBackgroundimg.jpg");
   background-color: var(--secondary-text-color);
   padding-top: 200px;
   padding-bottom: 200px;
