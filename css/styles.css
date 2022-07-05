@@ -126,7 +126,12 @@ ul {
 /*----Герой----*/
 
 .hero {
-  background-image: url("../images/HeroBackgroundimg.jpg");
+  background-image: linear-gradient(
+      90deg,
+      rgba(47, 48, 58, 0.4) 0%,
+      rgba(47, 48, 58, 0.4) 100%
+    ),
+    url("../images/HeroBackgroundimg.jpg");
   padding-top: 200px;
   padding-bottom: 200px;
   background-repeat: no-repeat;
@@ -273,7 +278,6 @@ ul {
 .social {
   display: flex;
   justify-content: center;
-  margin-bottom: 30px;
   margin-top: 16px;
 }
 .social-link {
@@ -458,9 +462,10 @@ address {
 }
 .projectcontainer {
   flex-basis: calc(100% / 3 - 30px);
-
+  margin-left: 30px;
   margin-top: 30px;
-  border: 1px solid #eeeeee;
+}
+.projectcontainer:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
     0px 4px 4px rgba(15, 12, 12, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
